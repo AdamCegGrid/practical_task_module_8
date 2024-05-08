@@ -3,8 +3,8 @@
 [![Made by Adam Cegiełka](https://img.shields.io/badge/made%20by%20-Adam%20Cegielka-blue.svg?style=flat-square)](https://adamcegielka.pl) <br>
 [![Postman](https://img.shields.io/badge/Postman-Docs-ef5b25.svg?logo=postman)](https://learning.postman.com/docs/introduction/overview/)
 [![Charles Proxy](https://img.shields.io/badge/Charles-Docs-bde.svg?logo=charles)](https://www.charlesproxy.com/documentation/welcome/)
-[![DevTools](https://img.shields.io/badge/DevTools-Docs-2172f8.svg?logo=chrome)](https://developer.chrome.com/docs/devtools)
-[![SQL](https://img.shields.io/badge/SQL-Tutorial-04AA6D.svg?logo=sql)](https://www.w3schools.com/sql/default.asp)
+[![DevTools](https://img.shields.io/badge/DevTools-Docs-2172f8.svg?logo=google-chrome)](https://developer.chrome.com/docs/devtools)
+[![SQL](https://img.shields.io/badge/SQL-Tutorial-04AA6D.svg?logo=mysql)](https://www.w3schools.com/sql/default.asp)
 [![GIT](https://img.shields.io/badge/GIT-Docs-f14e32.svg?logo=git)](https://git-scm.com/doc)
 
 This repository contains my homework assignments as part of an internship program focused on gaining proficiency in popular API testing tools including Postman, Charles, and Chrome DevTools. It offers practical exercises and resources to effectively use these tools for building and testing APIs, thereby enhancing my software development skills.
@@ -17,7 +17,7 @@ The repository also encompasses basic **SQL** tasks and introductory **GitHub** 
 ## Internship Homework
 
 ### [Postman task:](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/Postman_Task)  
-[<span style="color: #49CC90;">Solution</span>](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/Postman_Task)  
+[Solution](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/Postman_Task)  
 1. Install Postman REST Client
 2. Create Account in Trello using PERSONAL mail (not Grid)
 3. Sign In to Account
@@ -29,9 +29,9 @@ https://api.trello.com/1/members/me?key={YOUR_KEY}&token={YOUR_TOKEN}
 ```
 7. If Step 6 returned JSON go to Step 8 if not go to Google
 8. Create Postmen collection for:
-    - Creating a new board <span style="color: #FF6C37;">POST</span> *
-    - Getting board by ID <span style="color: #49CC90;">GET</span>
-    - Updating board <span style="color: #FCA130;">PUT</span> 
+    - Creating a new board `POST` *
+    - Getting board by ID `GET`
+    - Updating board `PUT`
     - Remove board  
 
 <sub> *you need to use the same board id for all requests, so please extract the variable from the response to the POST request.  
@@ -40,7 +40,7 @@ USE DOC: https://developer.atlassian.com/cloud/trello/rest/api-group-boards/*</s
 ---
 
 ### [Charles Proxy task:](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/Charls_Task)   
-[<span style="color: #49CC90;">Solution</span>](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/Charls_Task)  
+[Solution](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/Charls_Task)  
 
 Pre-conditions
 Set up charles proxy
@@ -60,7 +60,7 @@ Do the following tasks using Map Local, Rewrite, breakpoints features in Charles
 ---
 
 ### [Chrome DevTool task:](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/DevTools_Task)  
-[<span style="color: #49CC90;">Solution</span>](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/DevTools_Task)  
+[Solution](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/DevTools_Task)  
 
 1. Open the page https://www.amazon.com/  
 `Elements Tab`  
@@ -79,7 +79,7 @@ Do the following tasks using Map Local, Rewrite, breakpoints features in Charles
 ---
 
 ### [SQL task:](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/SQL_Task)  
-[<span style="color: #49CC90;">Solution</span>](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/SQL_Task)  
+[Solution](https://github.com/AdamCegGrid/practical_task_module_8/tree/main/SQL_Task)  
 
 1. Download DB and pdf schema
 2. Prepare query for:
@@ -91,7 +91,7 @@ Do the following tasks using Map Local, Rewrite, breakpoints features in Charles
 ---
 
 ### [GIT Basics task:](https://github.com/AdamCegGrid/GD_Internship)  
-[<span style="color: #49CC90;">Solution</span>](https://github.com/AdamCegGrid/GD_Internship)  
+[Solution](https://github.com/AdamCegGrid/GD_Internship)  
 
 **Part 1**
 
