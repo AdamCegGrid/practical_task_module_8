@@ -1,0 +1,212 @@
+{
+	"id": "5d317406-256d-48a5-bb61-79c3dcc2a57e",
+	"name": "Trello - Homework",
+	"timestamp": "2024-05-10T16:07:47.083Z",
+	"collection_id": "34396855-edeb2686-63a9-4339-aa96-126ae90fc4be",
+	"folder_id": 0,
+	"environment_id": "34396855-ba174f91-7508-46ff-9152-76f83a76a945",
+	"totalPass": 15,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-05-10T16:07:43.346Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "19361072-e84d-42fc-9f7f-2559637dd8b3",
+			"name": "Create a Board",
+			"url": "https://api.trello.com/1/boards/?name=Create by Postman&key={{API_KEY}}&token={{TOKEN}}&desc=Creation of board as part of traning",
+			"time": 577,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify response status OK": true,
+				"Status code is 200": true,
+				"Verify string of name": true,
+				"Response time is less than 700ms": true
+			},
+			"testPassFailCounts": {
+				"Verify response status OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify string of name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				577
+			],
+			"allTests": [
+				{
+					"Verify response status OK": true,
+					"Status code is 200": true,
+					"Verify string of name": true,
+					"Response time is less than 700ms": true
+				}
+			]
+		},
+		{
+			"id": "75c88d17-d8cf-4fd8-af85-aaa640382d8e",
+			"name": "Get a Board by ID",
+			"url": "https://api.trello.com/1/boards/663e46517936565b33336a32?key={{API_KEY}}&token={{TOKEN}}",
+			"time": 219,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify response status OK": true,
+				"Status code is 200": true,
+				"Board name is correct": true,
+				"Description is correct": true
+			},
+			"testPassFailCounts": {
+				"Verify response status OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Board name is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Description is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Verify response status OK": true,
+					"Status code is 200": true,
+					"Board name is correct": true,
+					"Description is correct": true
+				}
+			]
+		},
+		{
+			"id": "67123815-181f-4686-a1c4-100e8eaaeff2",
+			"name": "Update a Board",
+			"url": "https://api.trello.com/1/boards/663e46517936565b33336a32?name=Renamed Board&key={{API_KEY}}&token={{TOKEN}}&desc=Changing the name of the board",
+			"time": 288,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify response status OK": true,
+				"Status code is 200": true,
+				"New board name is correct": true,
+				"New description is correct": true
+			},
+			"testPassFailCounts": {
+				"Verify response status OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New board name is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New description is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				288
+			],
+			"allTests": [
+				{
+					"Verify response status OK": true,
+					"Status code is 200": true,
+					"New board name is correct": true,
+					"New description is correct": true
+				}
+			]
+		},
+		{
+			"id": "a6c58f95-f846-408f-8862-90e4a2058e5b",
+			"name": "Delete a Board",
+			"url": "https://api.trello.com/1/boards/663e46517936565b33336a32?key={{API_KEY}}&token={{TOKEN}}",
+			"time": 1190,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify response status OK": true,
+				"Status code is 200": true,
+				"Response time is acceptable": true
+			},
+			"testPassFailCounts": {
+				"Verify response status OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is acceptable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1190
+			],
+			"allTests": [
+				{
+					"Verify response status OK": true,
+					"Status code is 200": true,
+					"Response time is acceptable": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2274,
+	"collection": {
+		"requests": [
+			{
+				"id": "19361072-e84d-42fc-9f7f-2559637dd8b3",
+				"method": "POST"
+			},
+			{
+				"id": "75c88d17-d8cf-4fd8-af85-aaa640382d8e",
+				"method": "GET"
+			},
+			{
+				"id": "67123815-181f-4686-a1c4-100e8eaaeff2",
+				"method": "PUT"
+			},
+			{
+				"id": "a6c58f95-f846-408f-8862-90e4a2058e5b",
+				"method": "DELETE"
+			}
+		]
+	}
+}
