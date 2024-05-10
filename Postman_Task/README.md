@@ -17,4 +17,12 @@ https://api.trello.com/1/members/me?key={YOUR_KEY}&token={YOUR_TOKEN}
     - Remove board  
 
 <sub> *you need to use the same board id for all requests, so please extract the variable from the response to the POST request.  
-USE DOC: https://developer.atlassian.com/cloud/trello/rest/api-group-boards/*</sub>
+USE DOC: https://developer.atlassian.com/cloud/trello/rest/api-group-boards/*</sub>  
+
+<br>
+
+## [Solution](https://github.com/AdamCegGrid/practical_task_module_8/blob/main/Postman_Task/Trello%20-%20Homework%20-%20Run%20results.png)  
+
+<br>
+
+![Solution](Trello%20-%20Homework%20-%20Run%20results.png)
