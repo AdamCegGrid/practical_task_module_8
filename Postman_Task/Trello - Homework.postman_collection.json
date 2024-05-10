@@ -1,0 +1,319 @@
+{
+	"info": {
+		"_postman_id": "edeb2686-63a9-4339-aa96-126ae90fc4be",
+		"name": "Trello - Homework",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34396855"
+	},
+	"item": [
+		{
+			"name": "Create a Board",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"    const jasonData = pm.response.json();",
+							"    pm.collectionVariables.set(\"BOARD_ID\", jasonData.id);",
+							"});",
+							"",
+							"pm.test(\"Verify string of name\", function () {",
+							"    const responseData = pm.response.json();",
+							"    pm.expect(responseData.name).to.be.a(\"string\");",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 700ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(700);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/?name={{BOARD_NAME}}&key={{API_KEY}}&token={{TOKEN}}&desc={{DESCRIPTION}}",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{BOARD_NAME}}"
+						},
+						{
+							"key": "key",
+							"value": "{{API_KEY}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						},
+						{
+							"key": "desc",
+							"value": "{{DESCRIPTION}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a Board by ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Board name is correct\", function () {",
+							"    const response = pm.response.json();",
+							"    const expectedName = pm.variables.get(\"BOARD_NAME\");",
+							"    pm.expect(response.name).to.eql(expectedName);",
+							"});",
+							"",
+							"pm.test(\"Description is correct\", function () {",
+							"    const response = pm.response.json();",
+							"    const expectedDesc = pm.variables.get(\"DESCRIPTION\");",
+							"    pm.expect(response.desc).to.eql(expectedDesc);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "{{API_KEY}}"
+					},
+					{
+						"key": "token",
+						"value": "{{TOKEN}}"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{BASE_URL}}/{{BOARD_ID}}?key={{API_KEY}}&token={{TOKEN}}",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"{{BOARD_ID}}"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{API_KEY}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a Board",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"New board name is correct\", function () {",
+							"    const response = pm.response.json();",
+							"    const expectedName = pm.variables.get(\"NEW_BOARD_NAME\");",
+							"    pm.expect(response.name).to.eql(expectedName);",
+							"});",
+							"",
+							"pm.test(\"New description is correct\", function () {",
+							"    const response = pm.response.json();",
+							"    const expectedDesc = pm.variables.get(\"NEW_DESCRIPTION\");",
+							"    pm.expect(response.desc).to.eql(expectedDesc);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/{{BOARD_ID}}?name={{NEW_BOARD_NAME}}&key={{API_KEY}}&token={{TOKEN}}&desc={{NEW_DESCRIPTION}}",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"{{BOARD_ID}}"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{NEW_BOARD_NAME}}"
+						},
+						{
+							"key": "key",
+							"value": "{{API_KEY}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						},
+						{
+							"key": "desc",
+							"value": "{{NEW_DESCRIPTION}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Board",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response time is acceptable\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/{{BOARD_ID}}?key={{API_KEY}}&token={{TOKEN}}",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"{{BOARD_ID}}"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{API_KEY}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					"pm.test(\"Verify response status OK\", function () {",
+					"    pm.expect(pm.response.status).to.eql(\"OK\");",
+					"});"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BASE_URL",
+			"value": "https://api.trello.com/1/boards",
+			"type": "string"
+		},
+		{
+			"key": "BOARD_ID",
+			"value": ""
+		},
+		{
+			"key": "BOARD_NAME",
+			"value": "Create by Postman",
+			"type": "string"
+		},
+		{
+			"key": "DESCRIPTION",
+			"value": "Creation of board as part of traning",
+			"type": "string"
+		},
+		{
+			"key": "NEW_BOARD_NAME",
+			"value": "Renamed Board",
+			"type": "string"
+		},
+		{
+			"key": "NEW_DESCRIPTION",
+			"value": "Changing the name of the board",
+			"type": "string"
+		}
+	]
+}
