@@ -8,8 +8,8 @@ _5. Make a screenshot of the new page view on Galaxy Note 3_
 
 <br>
 
-## [Solution](https://github.com/AdamCegGrid/practical_task_module_8/blob/main/DevTools_Task/01-Elements-Tab.png) 
+## [Solution](https://github.com/AdamCegGrid/practical_task_module_8/blob/main/DevTools_Task/img/01-Elements-Tab.png) 
 
 <br>
 
-![Solution](01-Elements-Tab.png)
+![Solution](img/01-Elements-Tab.png)
