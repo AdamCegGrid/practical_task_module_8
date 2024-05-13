@@ -1,5 +1,7 @@
 # Description of the block in Galaxy Note 3
 
+_Refresh the page. Choose one of the category blocks. Describe the block size, picture size and margins_
+
 ### Top picks for you
 
 - Block Size:
