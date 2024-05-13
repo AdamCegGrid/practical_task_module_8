@@ -14,18 +14,18 @@ Under the usual internet connection, the DOMContentLoaded event, which indicates
 
 
 
-## [Simulate Usual Internet Connection:](https://github.com/AdamCegGrid/practical_task_module_8/blob/main/DevTools_Task/04-Notwork-Tab-IC.png) 
+## [Simulate Usual Internet Connection:](https://github.com/AdamCegGrid/practical_task_module_8/blob/main/DevTools_Task/img/04-Notwork-Tab-IC.png) 
 
 - DOMContentLoaded: `1.05 s`
 
 <br>
 
-![Simulate Usual Internet Connection](04-Network-Tab-IC.png) 
+![Simulate Usual Internet Connection](img/04-Network-Tab-IC.png) 
 
-## [Simulate Slow 3G Connection:](https://github.com/AdamCegGrid/practical_task_module_8/blob/main/DevTools_Task/04-Notwork-Tab-I3g.png) 
+## [Simulate Slow 3G Connection:](https://github.com/AdamCegGrid/practical_task_module_8/blob/main/DevTools_Task/img/04-Notwork-Tab-I3g.png) 
 
 DOMContentLoaded: `9.41 s`
 
 <br>
 
-![Simulate Slow 3G Connection](04-Network-Tab-3g.png)
+![Simulate Slow 3G Connection](img/04-Network-Tab-3g.png)
