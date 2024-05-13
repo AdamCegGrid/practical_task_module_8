@@ -18,8 +18,8 @@ Indicates that the server denied access to the resource that the web page was tr
 
 <br>
 
-## [Solution](https://github.com/AdamCegGrid/practical_task_module_8/blob/main/DevTools_Task/03-Console-Tab.png) 
+## [Solution](https://github.com/AdamCegGrid/practical_task_module_8/blob/main/DevTools_Task/img/03-Console-Tab.png) 
 
 <br>
 
-![Solution](03-Console-Tab.png)
+![Solution](img/03-Console-Tab.png)
