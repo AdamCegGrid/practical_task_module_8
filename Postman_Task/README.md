@@ -26,3 +26,13 @@ USE DOC: https://developer.atlassian.com/cloud/trello/rest/api-group-boards/*</s
 <br>
 
 ![Solution](Trello%20-%20Homework%20-%20Run%20results.png)
+
+<br>
+
+## Tutorials:
+
+- [Postman: The Complete Guide - REST API Testing - Udemy](https://www.udemy.com/course/postman-the-complete-guide/)
+- [Postman Beginner's Course - API Testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
+- [API testing for Beginners with Real Project Examples](https://www.youtube.com/watch?v=dsZIi1SrXG4&list=PLedmK0jZBQvjiAikOeEWPV36bXY8YDlvs)
+- [Postman API Testing](https://www.youtube.com/watch?v=IPpGqyeMEZU&list=PLL34mf651faPfS9z4BXdLfaw1KAaJOI7n)
+- [Postman - pl](https://www.youtube.com/watch?v=hczgV-qY6s0&list=PL9jnDJ4h6Jbykm8CRq7vEW--8KoNKodFD)
