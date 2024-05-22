@@ -27,3 +27,10 @@ ORDER BY pub_name ASC;
 ```
 
 ![Solution_2](Solution_2.png)
+
+## Tutorials:
+
+- [MySQL Tutorial for Beginners](https://www.youtube.com/watch?v=7S_tz1z_5bA)
+- [Learn SQL In 60 Minutes](https://www.youtube.com/watch?v=p3qvj9hO_Bo)
+- [SQL for Beginners](https://www.youtube.com/watch?v=wifRYaPiiM0&list=PLUDwpEzHYYLvWEwDxZViN1shP-pGyZdtT&index=1)
+- [Kurs MySQL- pl](https://www.youtube.com/watch?v=99JAI24Zd24&list=PLOYHgt8dIdoymv-Wzvs8M-OsKFD31VTVZ)
