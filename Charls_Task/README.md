@@ -53,7 +53,7 @@ You need an Instagram account for testing (create new or you can use your own). 
 - [How to edit / change request /response using Charles proxy](https://www.youtube.com/watch?v=vtlsTIBEi7s&t=336s)
 - [Using Charles HTTP Proxy Server to Intercept HTTPS (SSL) Traffic](https://www.youtube.com/watch?v=AElqiF6VSZI)
 - [Charles Proxy in iOS](https://www.youtube.com/watch?v=qp3Q3E_DSB4)
-- [how do PROs make REWRITE in Charles Proxy](https://www.youtube.com/watch?v=YEY7Vdqjm_Q)
+- [How do PROs make REWRITE in Charles Proxy](https://www.youtube.com/watch?v=YEY7Vdqjm_Q)
 - [How to change the HTTP response code with Charles Proxy](https://www.youtube.com/watch?v=0228QtlCGY4)
 
 ## Issue with the Instagram:
@@ -63,3 +63,4 @@ You need an Instagram account for testing (create new or you can use your own). 
 - [Issue reversing the Instagram apk with Charles and Mitmproxy](https://github.com/subzeroid/instagrapi/discussions/666)
 - [Charles Proxy Instagram Requests](https://github.com/aliforever/charles-proxy-instagram-requests)
 - [Reading Instagram Private API Requests with Charles Proxy](https://archive.ph/2022.10.13-160735/https://adw0rd.com/2020/03/26/sniffing-instagram-charles-proxy/en/#selection-227.0-227.57)
+- [Instagram Graph API](https://developers.facebook.com/docs/instagram-api)
