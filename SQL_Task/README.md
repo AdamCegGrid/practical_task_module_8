@@ -28,6 +28,8 @@ ORDER BY pub_name ASC;
 
 ![Solution_2](Solution_2.png)
 
+<br>
+
 ## Tutorials:
 
 - [MySQL Tutorial for Beginners](https://www.youtube.com/watch?v=7S_tz1z_5bA)
