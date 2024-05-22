@@ -56,7 +56,7 @@ You need an Instagram account for testing (create new or you can use your own). 
 - [how do PROs make REWRITE in Charles Proxy](https://www.youtube.com/watch?v=YEY7Vdqjm_Q)
 - [How to change the HTTP response code with Charles Proxy](https://www.youtube.com/watch?v=0228QtlCGY4)
 
-## More information:
+## Issue with the Instagram:
 
 - [Can't encrypt Instagram requests using Charles Proxy](https://stackoverflow.com/questions/60278132/cant-encrypt-instagram-requests-using-charles-proxy)
 - [Using Charles Proxy I'm trying to change the number of followers an Instagram](https://stackoverflow.com/questions/78390094/using-charles-proxy-im-trying-to-change-the-number-of-followers-an-instagram-ac)
