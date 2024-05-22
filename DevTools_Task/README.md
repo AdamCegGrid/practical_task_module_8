@@ -25,6 +25,8 @@
 9. Profile the page with Fast 3G connection. Analyze the results.  
 [Solution](03-Console-Tab.md)  
 
+<br>
+
 ## Tutorials:
 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools)
