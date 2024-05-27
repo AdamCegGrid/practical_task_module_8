@@ -2,7 +2,7 @@
 
 Pre-conditions
 Set up charles proxy
-You need an Instagram account for testing (create new or you can use your own). Please, use the web version.
+You need an Twitter account for testing (create new or you can use your own). Please, use the web version.
 
 <sub>*Attach the screenshots of each step.*</sub>
 
