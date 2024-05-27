@@ -45,6 +45,7 @@ You need an Twitter account for testing (create new or you can use your own). Pl
 ## Tutorials:
 
 - [Getting Started With Using Charles Proxy For Testing](https://www.youtube.com/watch?v=lf2yCklqdyo&t=549s)
+    - [Testing With Charles Proxy](https://nicolalindgren.com/testing-with-charles-proxy-part-1/)
 - [How to Inspect All Network Traffic // Charles Proxy](https://www.youtube.com/watch?v=RwfeH5ahxCg)
 - [Charles as a way to test web integrations](https://www.youtube.com/watch?v=v8RYWEUPSK8)
 - [Manual QA: Testing for Beginners - Charles Proxy - Part 27](https://www.youtube.com/watch?v=tEvQg_mwlHk)
