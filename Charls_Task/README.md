@@ -14,7 +14,7 @@ You need an Twitter account for testing (create new or you can use your own). Pl
 
 <br>
 
-> **The task was performed correctly by modifying the API response in Charles Proxy, but the changes are not visible on Twitter, likely due to additional security or caching mechanisms used by the platform. <br> Despite the correct settings and the SSL certificate installed, the requests on Instagram remain encrypted, making it impossible to modify them.**
+> **The task was performed correctly by modifying the API response in Charles Proxy, but the changes are not visible on Twitter, likely due to additional security or caching mechanisms used by the platform. <br> Despite the correct settings and the SSL certificate installed, the requests on Instagram remain encrypted, making it impossible to modify them.** [Screenshot](img/Instagram.png)
 
 <br> 
 
