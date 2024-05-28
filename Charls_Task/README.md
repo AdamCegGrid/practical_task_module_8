@@ -14,6 +14,10 @@ You need an Twitter account for testing (create new or you can use your own). Pl
 
 <br>
 
+[_Task has been made correctly through the modification of the API response in Charles Proxy, however, the change is not visible on Twitter, probably because of the additional security mechanism or cache by Twitter_](#)
+
+<br>
+
 ### 1. Change the number of subscribers to 13 00000
 
 ![Solution_1](img/Solution_1.png)
