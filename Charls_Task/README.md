@@ -14,9 +14,9 @@ You need an Twitter account for testing (create new or you can use your own). Pl
 
 <br>
 
-[_Task has been made correctly through the modification of the API response in Charles Proxy, however, the change is not visible on Twitter, probably because of the additional security mechanism or cache by Twitter_](#)
+> **The task was performed correctly by modifying the API response in Charles Proxy, but the changes are not visible on Twitter, likely due to additional security or caching mechanisms used by the platform. <br> Despite the correct settings and the SSL certificate installed, the requests on Instagram remain encrypted, making it impossible to modify them.**
 
-<br>
+<br> 
 
 ### 1. Change the number of subscribers to 13 00000
 
